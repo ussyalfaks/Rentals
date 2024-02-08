@@ -1,12 +1,13 @@
-import React from 'react'
 import Vector1 from '../assets/v1.png'
 import Vector2 from '../assets/v2.png'
 import Vector3 from '../assets/v3.png'
+import React from 'react';
 
 function Services() {
+ 
   return (
     <> 
-      <div className="flex items-center justify-center my-20">
+      <div id='Services' className="flex items-center justify-center my-20">
       <div className="text-center">
         <h1 className="text-6xl mb-4 text-[#465C47] max-md:text-5xl font-Messiri">See Our Services</h1>
         <p className=" mb-8 text-[#465C47] mx-5">We Make Finding Rentals Easy, Effortless Search, Endless Choice.</p>

@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import ABTHouse from "../assets/h4.png"
 
 function Aboutus() {
+  
   return (
     <>
-  <div className="flex flex-col md:flex-row items-center mb-8 gap-3 justify-center p-6 md:p-16  text-[#465C47]">
+  <div id='Aboutus' className="flex flex-col md:flex-row items-center mb-8 gap-3 justify-center p-6 md:p-16  text-[#465C47]">
   <div className="flex-1 order-1 max-md:order-2">
     <img className="w-full max-w-md mx-auto md:max-w-xl" src={ABTHouse} alt="Herohouse" />
   </div>

@@ -1,13 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import Person1 from '../assets/p1.png'
 import Person2 from '../assets/p2.png'
 import Person3 from '../assets/p3.png'
 
 
+
 function Testimonial() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
   return (
     <> 
-    <div className="flex items-center justify-center my-28">
+    <div id='Testimonial' className="flex items-center justify-center my-28">
     <div className="text-center">
       <h1 className="text-6xl mb-4 text-[#465C47] max-md:text-5xl font-Messiri">What Customers Say <br /> About Our Services</h1>
       <p className=" mb-8 text-[#465C47] mx-5">We Make Finding Rentals Easy, Effortless Search, Endless Choice.</p>
