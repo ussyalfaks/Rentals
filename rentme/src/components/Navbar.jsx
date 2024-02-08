@@ -48,11 +48,11 @@ function Navbar() {
                     </div>
             <nav  className={` ${isMenuOpen ? 'flex  justify-center items-center h-screen' : ''}`}>
             <ul className= {`flex  text-[#465C47] font-semibold ${isMenuOpen ? '  max-md:flex-col' : 'max-md:hidden'}`}>
-                            <li className="mx-8 max-md:my-5 hover:underline"><Link to="/">Home</Link></li>
-                            <li className="mx-8 max-md:my-5 hover:underline"><Link to="/#Aboutus">About Us</Link></li>
-                            <li className="mx-8 max-md:my-5 hover:underline"><Link to="/#Services">Services</Link></li>
-                            <li className="mx-8 max-md:my-5 hover:underline"><Link to="/#Testimonial">Testimonial</Link></li>
-                            <li className="mx-8 max-md:my-5 hover:underline"><Link to="/#Testimonial">Contact Us</Link></li>
+                            <li className="mx-8 max-md:my-5 hover:underline">Home</li>
+                            <li className="mx-8 max-md:my-5 hover:underline">About Us</li>
+                            <li className="mx-8 max-md:my-5 hover:underline">Services</li>
+                            <li className="mx-8 max-md:my-5 hover:underline">Testimonial</li>
+                            <li className="mx-8 max-md:my-5 hover:underline">Contact Us</li>
                         </ul>
             </nav>
 
