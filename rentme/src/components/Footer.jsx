@@ -1,14 +1,18 @@
 import React from 'react'
 import { FcHome } from "react-icons/fc";
+import Icon1 from '../assets/i1.png'
+import Icon6 from '../assets/i6.png'
+import Icon3 from '../assets/i3.png'
+import Icon4 from '../assets/i4.png'
 
 
 function Footer() {
   return (
     <>
-    <div className='flex justify-evenly mx-10 text-[#465C47]'>
+    <div className='flex justify-evenly m-10 text-[#465C47] max-md:flex-col'>
         <div>
         <h1 className='flex text-xl items-center'><span className='font-extrabold'>Rent</span>Home <FcHome className='ml-1'/></h1>
-            <p>The best and easy way to rent home</p>
+            <p>The best and easy way <br /> to rent home</p>
         </div>
 
         <div className='font-medium text-[#555555] '>
@@ -35,8 +39,14 @@ function Footer() {
         </div>
     </div>
 
-    <div>
-        <p>Copyright 2023 Dscode | All rights reserved</p>
+    <div className='flex items-center lg:mt-32 max-md:flex-col'>
+        <div className='flex items-center lg:ml-48 max-md:my-5'>
+            <span className='mx-2 border-2 border-[#0D4512] bg-[#0D4512] rounded-full    '><img src={Icon6} alt="social media icons" /></span>
+            <span className='mx-2 border-2 border-[#0D4512] bg-[#EDFFEF] rounded-full p-3'><img src={Icon1} alt="social media icons" /></span>
+            <span className='mx-2 border-2 border-[#0D4512] bg-[#EDFFEF] rounded-full p-3'><img src={Icon3} alt="social media icons" /></span>
+            <span className='mx-2 border-2 border-[#0D4512] bg-[#EDFFEF] rounded-full p-3'><img src={Icon4} alt="social media icons" /></span>
+        </div>
+        <p className=' lg:ml-24'>Copyright &#169; 2023 Dscode | All rights reserved</p>
     </div>
 
     </>
