@@ -11,11 +11,11 @@ function Footer() {
     <>
     <div className='flex justify-evenly m-10 text-[#465C47] max-md:flex-col'>
         <div>
-        <h1 className='flex text-xl items-center'><span className='font-extrabold'>Rent</span>Home <FcHome className='ml-1'/></h1>
+        <h1 className='flex  text-xl items-center max-md:flex-1'><span className='font-extrabold'>Rent</span>Home <FcHome className='ml-1'/></h1>
             <p>The best and easy way <br /> to rent home</p>
         </div>
 
-        <div className='font-medium text-[#555555] '>
+        <div className='font-medium text-[#555555]'>
             <p className='font-bold text-[#465C47] mb-5'>UseFull Links</p>
             <p className='my-3'>AboutUs</p>
             <p className='my-3'>Events</p>
@@ -40,7 +40,7 @@ function Footer() {
     </div>
 
     <div className='flex items-center lg:mt-32 max-md:flex-col'>
-        <div className='flex items-center lg:ml-48 max-md:my-5'>
+        <div className='flex items-center lg:ml-48 md:ml-20 max-md:my-5'>
             <span className='mx-2 border-2 border-[#0D4512] bg-[#0D4512] rounded-full    '><img src={Icon6} alt="social media icons" /></span>
             <span className='mx-2 border-2 border-[#0D4512] bg-[#EDFFEF] rounded-full p-3'><img src={Icon1} alt="social media icons" /></span>
             <span className='mx-2 border-2 border-[#0D4512] bg-[#EDFFEF] rounded-full p-3'><img src={Icon3} alt="social media icons" /></span>
