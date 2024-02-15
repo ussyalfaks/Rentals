@@ -15,7 +15,7 @@ function Footer() {
             <p>The best and easy way <br /> to rent home</p>
         </div>
 
-        <div className='font-medium text-[#555555]'>
+        <div className='font-medium text-[#555555] max-md:mt-5'>
             <p className='font-bold text-[#465C47] mb-5'>UseFull Links</p>
             <p className='my-3'>AboutUs</p>
             <p className='my-3'>Events</p>
@@ -23,7 +23,7 @@ function Footer() {
             <p className='my-3'>FAQ</p>
         </div>
 
-        <div className='font-medium text-[#555555]'>
+        <div className='font-medium text-[#555555] max-md:mt-5'>
             <p className='font-bold text-[#465C47] mb-5'>Main Menu</p>
             <p className='my-3'>Home</p>
             <p className='my-3'>Offers</p>
@@ -31,7 +31,7 @@ function Footer() {
             <p className='my-3'>Reservation</p>
         </div>
 
-        <div className='font-medium text-[#555555]'>
+        <div className='font-medium text-[#555555] max-md:mt-5'>
             <p className='font-bold text-[#465C47] mb-5'>Contact Us</p>
             <p className='text-[#555555]'>Example@gmail.com</p>
             <p className='my-3'>+2348166280639</p>
