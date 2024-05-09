@@ -48,7 +48,6 @@ function Footer() {
         </div>
         <p className=' lg:ml-24'>Copyright &#169; 2023 Dscode | All rights reserved</p>
     </div>
-
     </>
   )
 }
