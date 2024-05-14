@@ -37,7 +37,6 @@ function Footer() {
             <p className='my-3'>Social Media</p>
         </div>
     </div>
-
     <div className='flex items-center lg:mt-32 max-md:flex-col'>
         <div className='flex items-center lg:ml-48 md:ml-20 max-md:my-5'>
             <span className='mx-2 border-2 border-[#0D4512] bg-[#0D4512] rounded-full    '><img src={Icon6} alt="social media icons" /></span>
