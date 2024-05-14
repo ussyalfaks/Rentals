@@ -25,9 +25,7 @@ function Navbar() {
           window.removeEventListener('resize', handleResize);
         };
       }, []);
-
     //   scroll no
-
     useEffect(() => {
         if (isMenuOpen) {
           document.body.style.overflow = 'hidden';
@@ -55,7 +53,6 @@ function Navbar() {
                             <li className="mx-8 max-md:my-5 hover:underline">Contact Us</li>
                         </ul>
             </nav>
-
     <div className='md:hidden'>
         <button onClick={toggleMenu} className='text-[#465C47]'>
           <FaBars size={24} />
