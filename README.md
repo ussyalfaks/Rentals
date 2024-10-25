@@ -1,2 +1,2 @@
 ## Rentals Overview
-Rentals site
+Rentals site.
